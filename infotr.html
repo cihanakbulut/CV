@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Who am i?</title>
+</head>
+
+<style>
+
+
+body{
+  background: #f7af07;
+  padding: 1em;
+  font: normal 15px Arial;
+  color: white;
+}
+*,
+*:before,
+*:after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  display: flex;
+  margin: 0 auto;
+  width: 95%;
+}
+.card h2{
+  margin: 0 0 0.5em 0;
+  color: black;
+}
+.card img{
+  width: 100%;
+  height: auto;
+  margin: 0 0 1em 0;
+}
+.card p{
+  margin: 0 0 1em 0;
+  color: black;
+}
+.card > a{
+  color: #f7af07;
+  text-decoration: none;
+  font-weight: bold;
+}
+.card{
+  margin: 0 1em;
+  background: white ;
+  padding: 2em;
+  text-align: center;
+  position: relative;
+  transition: all 200ms;
+}
+.card:hover .flip{
+  transform: rotateX(0deg);
+}
+.flip{
+  background: #222;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  min-height: 100%;
+  transition: all 200ms;
+  padding: 2.5em 1.5em;
+  transform: rotateX(90deg);
+}
+.flip h2{
+  font-size: 1.3em;
+  color: #f7af07;
+  margin: 0 0 2.5em 0;
+}
+.flip ul,
+.flip li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.flip li{
+  margin: 0 0 2em 0;
+}
+.flip li a{
+  font-size: 4em;
+  color: antiquewhite;
+}
+
+@media (max-width: 600px) {
+  .container{
+    display: block;
+    width: 100%;
+  }
+  .container .card{
+    margin: 0 0 2em 0;
+  }
+}
+
+
+
+</style>
+<body>
+
+
+    <div class="container">
+        <div class="card">
+          <h2>Kimim?</h2>
+          <img src="/resimler/nilisimveben.jpg" />
+          <p>Merhaba! Ben Cihan Akbulut.
+          </p>
+          
+          <div class="flip">
+            <h2>About Me<br /></h2>
+            <ul>
+                Merhaba! Ben Cihan Akbulut.
+                <br>
+                <br>
+                1 Mayıs 1989'da Adanada doğdum.
+                <br>
+                <br>
+                Uluslararası İlişkiler üzerine eğitim aldım.
+                <br>
+                <br>
+                Şekerbank'ta Ticari Uzman Yardımcısı olarak iş hayatıma başladım bununla birlikte STO'larda Proje yöneticilikleri yaptım.
+                <br>
+                <br>
+                Son olarak Amerikalı bir uluslararası taşımacılık ve teknoloji şirketi olan Expeditor's International firmasında Bölge Satış Yöneticisi olarak görev aldım.
+                <br>
+                <br>
+                <a href="https://www.linkedin.com/in/cihan-akbulut-844b01b0/" target="_blank" class="btn btn-primary"
+          style="background-color: midnightblue ; color: white;"> <i class="fa-brands fa-linkedin"
+            style="padding-right: 4px;"></i>LinkedIn</a>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <h2>Ne İstiyorum?</h2>
+          <img src="/resimler/miacicek.jpg" />
+          <p>İyi bir front-end developer olmaya çalışıyorum. </p>
+          <div class="flip">
+            <h2>AIM<br /></h2>
+            <ul>
+              İyi bir Front-End Developer olmak istiyorum.
+              <br>
+              <br>
+              İyi bir front-end developer olmaya çalışıyorum.
+              <br>
+              <br>
+              Bu mücadeleye geç başladım ama hırsıma ve disiplinime güvenim tam.
+              <br>
+              <br>
+              Amazon Cloud Practitioner sertifikasına sahibim.
+              <br>
+              <br>
+              Kendimi HTML, CSS, javascript, bootstrap ve ReactJS alanlarında geliştirmeye devam ediyorum. Projelerimi görmek için GitHub'ımı ziyaret edebilirsiniz.
+              <br><br>
+              <a href="https://github.com/cihanakbulut" target="_blank" class="btn btn-primary"
+              style="background-color: black;color: antiquewhite;"> <i class="fa-brands fa-github" style="padding-right: 4px;"></i>GitHub</a>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="card">
+          <h2>Aile</h2>
+          <img src="/resimler/ikiyaramazkedi.jpg" />
+          <p>Sevgi Dolu Bir Eş ve Üç Güzel Prenses</p>
+          <div class="flip">
+            <h2>Aile<br />Sevgi Dolu Bir Eş ve Üç Güzel Prenses</h2>
+            <ul>
+            Nil "Ana Kraliçe" Eş
+            <br><br><br>
+            Mia "Bir Numara" Cocker
+            <br><br><br>
+            Üzüm "Yaramaz" Tortoise Kedi
+            <br><br><br>
+            Balkiz "Sarı" Sarman Kedi
+            <br><br><br>
+            Mia'nın Kişisel Web Sitesi
+            <br>
+            <br>
+            <a href="https://miasfear.netlify.app/"><i class="fa-solid fa-dog"><br> Mia's Fear</i></a>
+
+            </ul>
+          </div>
+        </div>
+        </div>
+        
+        
+    
+
+
+
+
+
+    <div style="background-color: black;color: aliceblue;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-style: oblique;">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title" style="text-align: center" ;><b> Who Am I?</b></h5>
+                <p class="card-text" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+            <img src="/resimler/nilisimveben.jpg" class="card-img-top" alt="..." height="500px" width="400px">
+            <img src="/resimler/miacicek.jpg" class="card-img-top" alt="..." height="500px" width="400px">
+            <img src="/resimler/ikiyaramazkedi.jpg" class="card-img-top" alt="..." height="500px" width="400px">
+            </p>
+            
+            </div>
+          </div>
+    </div>
+    <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>
