@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Who am i?</title>
+</head>
+
+<style>
+
+
+body{
+  background: #f7af07;
+  padding: 1em;
+  font: normal 15px Arial;
+  color: white;
+}
+*,
+*:before,
+*:after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  display: flex;
+  margin: 0 auto;
+  width: 95%;
+}
+.card h2{
+  margin: 0 0 0.5em 0;
+  color: black;
+}
+.card img{
+  width: 100%;
+  height: auto;
+  margin: 0 0 1em 0;
+}
+.card p{
+  margin: 0 0 1em 0;
+  color: black;
+}
+.card > a{
+  color: #f7af07;
+  text-decoration: none;
+  font-weight: bold;
+}
+.card{
+  margin: 0 1em;
+  background: white ;
+  padding: 2em;
+  text-align: center;
+  position: relative;
+  transition: all 200ms;
+}
+.card:hover .flip{
+  transform: rotateX(0deg);
+}
+.flip{
+  background: #222;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  min-height: 100%;
+  transition: all 200ms;
+  padding: 2.5em 1.5em;
+  transform: rotateX(90deg);
+}
+.flip h2{
+  font-size: 1.3em;
+  color: #f7af07;
+  margin: 0 0 2.5em 0;
+}
+.flip ul,
+.flip li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.flip li{
+  margin: 0 0 2em 0;
+}
+.flip li a{
+  font-size: 4em;
+  color: antiquewhite;
+}
+
+@media (max-width: 600px) {
+  .container{
+    display: block;
+    width: 100%;
+  }
+  .container .card{
+    margin: 0 0 2em 0;
+  }
+}
+
+
+
+</style>
+<body>
+
+
+    <div class="container">
+        <div class="card">
+          <h2>Who Am I?</h2>
+          <img src="/resimler/nilisimveben.jpg" />
+          <p>Hi! I am Cihan Akbulut.
+          </p>
+          
+          <div class="flip">
+            <h2>About Me<br /></h2>
+            <ul>
+                Hi! I am Cihan Akbulut.
+                <br>
+                <br>
+                I was born On May 1st, 1989 in Adana.
+                <br>
+                <br>
+                I studied in the field of international relations.
+                <br>
+                <br>
+                I worked as a Commercial Banker in Sekerbank for a while also I was reponsible for projects in non-governmental organizations.
+                <br>
+                <br>
+                Most recently, I worked as a district sales executive at Expeditors, an American international transportation and technology company.
+                <br>
+                <br>
+                <a href="https://www.linkedin.com/in/cihan-akbulut-844b01b0/" target="_blank" class="btn btn-primary"
+          style="background-color: midnightblue ; color: white;"> <i class="fa-brands fa-linkedin"
+            style="padding-right: 4px;"></i>LinkedIn</a>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <h2>What I Want?</h2>
+          <img src="/resimler/miacicek.jpg" />
+          <p>I'm trying to be a good front-end developer. </p>
+          <div class="flip">
+            <h2>AIM<br /></h2>
+            <ul>
+              I wanted to be a good Front-End Developer.
+              <br>
+              <br>
+              I'm trying to be a good front-end developer.
+              <br>
+              <br>
+              I started this challenge late but i have confidence to my discipline and desire.
+              <br>
+              <br>
+              I have Amazon Cloud Practitioner certificate.
+              <br>
+              <br>
+              I continue to improve myself in areas such as HTML, CSS, javascript, bootstrap and ReactJS. You can visit my GitHub to see some of my projects.
+              <br><br>
+              <a href="https://github.com/cihanakbulut" target="_blank" class="btn btn-primary"
+              style="background-color: black;color: antiquewhite;"> <i class="fa-brands fa-github" style="padding-right: 4px;"></i>GitHub</a>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="card">
+          <h2>Family</h2>
+          <img src="/resimler/ikiyaramazkedi.jpg" />
+          <p>A Lovely Wife and Three Little Princess </p>
+          <div class="flip">
+            <h2>Family<br />A lovely Wife and Three Little Princess</h2>
+            <ul>
+            Nil "The Queen" Wife
+            <br><br><br>
+            Mia "The Best" Cocker
+            <br><br><br>
+            Uzum "The Naughty" Tortoise Cat
+            <br><br><br>
+            Balkiz "The Yellow" Coiled Cat
+            <br><br><br>
+            Mia's Personal Website
+            <br>
+            <br>
+            <a href="https://miasfear.netlify.app/"><i class="fa-solid fa-dog"><br> Mia's Fear</i></a>
+
+            </ul>
+          </div>
+        </div>
+        </div>
+        
+        
+    
+
+
+
+
+
+    <div style="background-color: black;color: aliceblue;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-style: oblique;">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title" style="text-align: center" ;><b> Who Am I?</b></h5>
+                <p class="card-text" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+            <img src="/resimler/nilisimveben.jpg" class="card-img-top" alt="..." height="500px" width="400px">
+            <img src="/resimler/miacicek.jpg" class="card-img-top" alt="..." height="500px" width="400px">
+            <img src="/resimler/ikiyaramazkedi.jpg" class="card-img-top" alt="..." height="500px" width="400px">
+            </p>
+            
+            </div>
+          </div>
+    </div>
+    <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>
